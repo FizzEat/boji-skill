@@ -1,0 +1,60 @@
+{
+  "name": "boji-skill",
+  "version": "1.0.0",
+  "description": "薄拉图体系与薄肌生活方式 AI Skills 工具箱。面向年轻人的身材蜕变、精力管理、两性吸引力与生活掌控工程。",
+  "author": "boji-skill team",
+  "commands": [
+    {
+      "name": "boji",
+      "description": "薄拉图总入口与智能路由，输入当下的身体、饮食、两性或精力卡点，获取下一步推进方案"
+    },
+    {
+      "name": "boji-diagnosis",
+      "description": "体态与代谢分型诊断，划分泡芙人/排骨细狗/脂包肌/油腻大围度象限"
+    },
+    {
+      "name": "boji-pullup",
+      "description": "薄士学位考核与引体向上进阶引擎（0到15个连续标准引体路线图）"
+    },
+    {
+      "name": "boji-workout",
+      "description": "专攻倒三角肩腰比的 30 分钟低心智极简课表"
+    },
+    {
+      "name": "boji-nutrition",
+      "description": "打工人牛肉面营养学，外卖替换公式与低心智热量缺口"
+    },
+    {
+      "name": "boji-attraction",
+      "description": "黄毛理论与反供养者吸引力重塑，建立自身框架与原生性张力"
+    },
+    {
+      "name": "boji-aesthetic",
+      "description": "视觉廓形穿搭与即刻挺拔体态矫正"
+    },
+    {
+      "name": "boji-energy",
+      "description": "飞机杯理论与精力回收系统，生理降噪与反荷尔蒙内耗"
+    },
+    {
+      "name": "boji-listen",
+      "description": "听劝差纠偏引擎，破除认知傲慢与平台期嘴硬"
+    },
+    {
+      "name": "boji-unblock",
+      "description": "破罐破摔急救包，暴饮暴食与断练后的极简重启"
+    },
+    {
+      "name": "boji-creator",
+      "description": "薄肌生活方式自媒体做号引擎与爆款脚本"
+    },
+    {
+      "name": "boji-version",
+      "description": "版本更新论与人生破局路线，粉碎过期做题家与单向供养规训"
+    },
+    {
+      "name": "boji-speech",
+      "description": "语言第一性原理与心理脱敏，打破开口恐惧建立肌肉记忆表达"
+    }
+  ]
+}
