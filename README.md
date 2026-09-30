@@ -93,6 +93,14 @@ python3 tools/calc_metrics.py --height 175 --weight 75 --pullups 4
 
 ---
 
+## 🙏 致敬与灵感来源 (Acknowledgements)
+
+本项目核心思想框架与认知模因源自知名博主 **[邵艾伦 (Alan Shao)](https://x.com/alanshao)** 提出的“薄肌理论”与“薄拉图（Boplato）全套学说”（涵盖薄士学位、黄毛理论、牛肉面理论、飞机杯理论、听劝理论与版本更新论）。
+
+感谢艾伦在全网带来的先锋认知碰撞与破圈模因，本项目由社区开发者基于 Antigravity / Claude Code 开源生态进行了系统的 AI Agent 技能工程化重构与闭环落地。
+
+---
+
 ## 📄 许可证
 本项目采用 [CC BY-NC 4.0 (知识共享署名-非商业性使用 4.0 国际许可协议)](LICENSE)。
 欢迎个人自用与社群学习，未经授权请勿用于商业闭门课程售卖。
