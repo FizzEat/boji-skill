@@ -16,3 +16,11 @@ venv/
 .vscode/
 *.swp
 *.swo
+
+# Temp & build artifacts
+.*cache/
+*.aiff
+*.mp4
+*.swift
+overlay_card.png
+

@@ -5,11 +5,14 @@
 > **面向现代年轻人的身体机能、性张力、精力管理与生活掌控 AI Skills 工具箱。**  
 > 把你的身材烦恼、饮食卡点、两性困境与自律内耗交给 Agent，刺破借口，获得清晰诊断与立刻可执行的下一步动作。
 
-[![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-FizzEat%2Fboji--skill-181717?style=flat-square&logo=github)](https://github.com/FizzEat/boji-skill)
+[![GitHub Stars](https://img.shields.io/github/stars/FizzEat/boji-skill?style=flat-square&logo=github&color=EAB308)](https://github.com/FizzEat/boji-skill/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/FizzEat/boji-skill?style=flat-square&color=3B82F6)](https://github.com/FizzEat/boji-skill/network/members)
+[![Release](https://img.shields.io/badge/release-v1.0.0-10B981.svg?style=flat-square)](https://github.com/FizzEat/boji-skill/releases)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 [![Author](https://img.shields.io/badge/author-FizzEat-181717.svg?style=flat-square&logo=github)](https://github.com/FizzEat)
 [![X/Twitter](https://img.shields.io/badge/X-@boniusex-000000.svg?style=flat-square&logo=x)](https://x.com/boniusex)
-[![Platform](https://img.shields.io/badge/supported-Claude%20Code%20%7C%20Antigravity%20%7C%20Codex-8B5CF6.svg?style=flat-square)](.)
+[![Share on X](https://img.shields.io/badge/Share%20on-X-000000.svg?style=flat-square&logo=x)](https://twitter.com/intent/tweet?text=%E6%90%9E%E9%92%B1%E5%85%88%E6%90%9E%E8%BA%AB%E4%BD%93%EF%BC%81%E5%AF%B9%E6%A0%87+dbskill%EF%BC%8C%E6%88%91%E6%8A%8A%E8%96%84%E8%82%8C%E7%90%86%E8%AE%BA%E5%81%9A%E6%88%90%E4%BA%86+AI+Agent+%E5%B7%A5%E5%85%B7%E7%AE%B1%EF%BC%9Ahttps%3A%2F%2Fgithub.com%2FFizzEat%2Fboji-skill+%40boniusex+%40AlanShao111)
 
 ---
 
@@ -100,6 +103,28 @@ python3 tools/calc_metrics.py --height 175 --weight 75 --pullups 4
 本项目核心思想框架与认知模因源自知名博主 **[邵艾伦 (Alan Shao)](https://x.com/AlanShao111)** 提出的“薄肌理论”与“薄拉图（Boplato）全套学说”（涵盖薄士学位、黄毛理论、牛肉面理论、飞机杯理论、听劝理论与版本更新论）。
 
 感谢艾伦在全网带来的先锋认知碰撞与破圈模因，本项目由 **[@FizzEat](https://github.com/FizzEat)** ([X: @boniusex](https://x.com/boniusex)) 基于 Antigravity / Claude Code 开源生态进行了系统的 AI Agent 技能工程化重构与闭环落地。
+
+---
+
+## 🤝 引用与推荐 (Cite & Share)
+
+如果您在文章、播客、视频或开源项目中引用了 **boji-skill**，欢迎使用以下标准格式：
+
+### Markdown
+```markdown
+[boji-skill](https://github.com/FizzEat/boji-skill) - 基于薄肌理论与薄拉图全套体系的开源 AI Agent 工具箱 (@FizzEat).
+```
+
+### BibTeX
+```bibtex
+@software{fizzeat_boji_skill_2026,
+  author = {FizzEat},
+  title = {boji-skill: Open-Source Thin Muscle & Boplato AI Agent Toolkit},
+  url = {https://github.com/FizzEat/boji-skill},
+  version = {1.0.0},
+  year = {2026}
+}
+```
 
 ---
 
