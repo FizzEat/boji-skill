@@ -2,7 +2,7 @@
   "name": "boji-skill",
   "version": "1.0.0",
   "description": "薄拉图体系与薄肌生活方式 AI Skills 工具箱。面向年轻人的身材蜕变、精力管理、两性吸引力与生活掌控工程。",
-  "author": "boji-skill team",
+  "author": "FizzEat",
   "commands": [
     {
       "name": "boji",

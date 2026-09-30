@@ -7,6 +7,8 @@
 
 [![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
+[![Author](https://img.shields.io/badge/author-FizzEat-181717.svg?style=flat-square&logo=github)](https://github.com/FizzEat)
+[![X/Twitter](https://img.shields.io/badge/X-@boniusex-000000.svg?style=flat-square&logo=x)](https://x.com/boniusex)
 [![Platform](https://img.shields.io/badge/supported-Claude%20Code%20%7C%20Antigravity%20%7C%20Codex-8B5CF6.svg?style=flat-square)](.)
 
 ---
@@ -97,7 +99,7 @@ python3 tools/calc_metrics.py --height 175 --weight 75 --pullups 4
 
 本项目核心思想框架与认知模因源自知名博主 **[邵艾伦 (Alan Shao)](https://x.com/AlanShao111)** 提出的“薄肌理论”与“薄拉图（Boplato）全套学说”（涵盖薄士学位、黄毛理论、牛肉面理论、飞机杯理论、听劝理论与版本更新论）。
 
-感谢艾伦在全网带来的先锋认知碰撞与破圈模因，本项目由社区开发者基于 Antigravity / Claude Code 开源生态进行了系统的 AI Agent 技能工程化重构与闭环落地。
+感谢艾伦在全网带来的先锋认知碰撞与破圈模因，本项目由 **[@FizzEat](https://github.com/FizzEat)** ([X: @boniusex](https://x.com/boniusex)) 基于 Antigravity / Claude Code 开源生态进行了系统的 AI Agent 技能工程化重构与闭环落地。
 
 ---
 
