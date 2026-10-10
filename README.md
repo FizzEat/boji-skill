@@ -8,7 +8,7 @@
 [![GitHub Repo](https://img.shields.io/badge/GitHub-FizzEat%2Fboji--skill-181717?style=flat-square&logo=github)](https://github.com/FizzEat/boji-skill)
 [![GitHub Stars](https://img.shields.io/github/stars/FizzEat/boji-skill?style=flat-square&logo=github&color=EAB308)](https://github.com/FizzEat/boji-skill/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/FizzEat/boji-skill?style=flat-square&color=3B82F6)](https://github.com/FizzEat/boji-skill/network/members)
-[![Release](https://img.shields.io/badge/release-v1.0.0-10B981.svg?style=flat-square)](https://github.com/FizzEat/boji-skill/releases)
+[![Release](https://img.shields.io/badge/release-v1.1.0-10B981.svg?style=flat-square)](https://github.com/FizzEat/boji-skill/releases)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 [![Author](https://img.shields.io/badge/author-FizzEat-181717.svg?style=flat-square&logo=github)](https://github.com/FizzEat)
 [![X/Twitter](https://img.shields.io/badge/X-@boniusex-000000.svg?style=flat-square&logo=x)](https://x.com/boniusex)
@@ -21,26 +21,30 @@
 如果说优秀的商业 Skill（如 `dbskill`）解决的是**“搞钱与业务诊断”**的外部课题；  
 那么 `boji-skill` 解决的则是每个人最核心的内部底层系统：**“身体硬件、原生吸引力、精力守恒与心智掌控”**。
 
-很多普通人听了网上的“薄肌理论”或“薄拉图概念”热血沸腾，但回到现实依然不知道今天外卖怎么吃、引体怎么练、心态崩了怎么办。  
-**`boji-skill` 将抽象的网络模因升华为高度确定性的生理学与行为工程**，打造一个真正能够陪伴你完成蜕变的数字教练。
+### 🌟 核心基座：“孙学 - 薄肌 - 黄毛” 三位一体人生操作系统
+基于博主 **[邵艾伦 (Alan Shao)](https://x.com/AlanShao111)** 与波场 TRON 创始人 **[孙宇晨 (Justin Sun)](https://x.com/justinsuntron)** 的深度思想碰撞，本工具箱将年轻人在 AI 时代的破局路径工程化为三位一体闭环：
+- **【硬件层 · 薄肌 (Hardware)】**：身体是唯一原生硬件。肌肉是寿命储备与身体的美金现金存量，拒绝药物减重，死磕自然做功与 15 个正手引体阶梯。
+- **【固件层 · 黄毛 (Firmware)】**：“我压根不跟你玩这个游戏”。屏蔽一切世俗评价体系与做题家单向供养陷阱，建立不可侵犯的雄性框架与极度自信。
+- **【软件层 · 孙学 (Software)】**：认知升维、Small Ego（极致小自我与无面子哲学）、数学参照系大数遍历与全 AI 托管，实现零资源破局与轻资产全球套利。
 
 ---
 
-## 🧭 能力一览与 Skill 全目录
+## 🧭 能力一览与 Skill 全目录 (共 14 大专属技能)
 
 | 指令 | 对应底层理论 | 适用情境 | 核心产出 |
 | :--- | :--- | :--- | :--- |
 | **`/boji`** | 薄拉图总览 | 任何模糊问题、不知道从何开始 | 智能意图路由，编排 1 个主技能 + 辅助方案 |
+| **`/boji-sunxue`** | 孙学 | 怕被嘲笑不敢尝试、死要面子、缺乏商业套利嗅觉 | Small Ego（小自我）、数学大数遍历、全 AI 托管与轻资产套利 |
 | **`/boji-diagnosis`** | 薄肌分型 | 评估自身体质、判断该增还是该减 | 4 象限身材与代谢诊断、隐形致胖真因定性 |
 | **`/boji-pullup`** | 薄士学位 | 引体向上 0 基础突破或瓶颈冲刺 | 0 到 15 个连续标准引体阶梯路线图、神经润滑法 |
 | **`/boji-workout`** | 视觉廓形 | 没时间去健身房，追求肩腰比 | 专攻倒三角廓形的 30-40 分钟低心智课表（居家/器械） |
 | **`/boji-nutrition`** | 牛肉面理论 | 外卖党、不想做饭备餐、戒不掉碳水 | 外卖红绿灯替换公式、掌心法则、低压热量缺口 |
-| **`/boji-attraction`**| 黄毛理论 | 陷入两性讨好、缺乏性张力、老实人自卑 | 拒绝当供养者、建立个人框架、原生吸引力重塑 |
+| **`/boji-attraction`**| 黄毛理论 | 陷入两性讨好、缺乏性张力、老实人自卑规训 | 规则脱钩、拒绝当供养者、建立个人雄性铁框架 |
 | **`/boji-aesthetic`** | 视觉穿搭 | 穿衣服显土、圆肩驼背猥琐颈假体态 | 60 秒即刻挺拔复位动作、重磅版型与下颌线修饰 |
 | **`/boji-energy`** | 飞机杯理论 | 欲望内耗、深夜空虚、被荷尔蒙绑架 | 生理降噪阻断机制、注意力强制回收至核心资产 |
 | **`/boji-listen`** | 听劝理论 | 平台期找借口、嘴硬死磕、认知傲慢 | 听劝差评估、刺破借口、交付唯一强制纠偏动作 |
 | **`/boji-unblock`** | 破罐破摔 | 暴饮暴食之后极度自责、断练几天想摆烂 | 生理真相除颤、2 分钟极简微重启协议 |
-| **`/boji-creator`** | 自媒体实战 | 想把真实蜕变过程做成个人 IP 账号 | 爆款黄金开头 Hook、前后反差叙事与分镜头脚本 |
+| **`/boji-creator`** | 自媒体实战 | 想把真实蜕变过程做成个人 IP 账号 | 爆款黄金开头 Hook、前后反差叙事与流量杠杆 |
 | **`/boji-version`** | 版本更新论 | 面对就业做题家困境、大环境与社会催婚买房规训 | 识别过期代码、收回人生主权、输出新时代版本答案 |
 | **`/boji-speech`**  | 语言第一性原理 | 开口恐惧症、哑巴英语、人际社交尴尬畏缩 | 国际尬聊心理脱敏法则、口腔肌肉记忆高频语块 |
 
@@ -100,9 +104,11 @@ python3 tools/calc_metrics.py --height 175 --weight 75 --pullups 4
 
 ## 🙏 致敬与灵感来源 (Acknowledgements)
 
-本项目核心思想框架与认知模因源自知名博主 **[邵艾伦 (Alan Shao)](https://x.com/AlanShao111)** 提出的“薄肌理论”与“薄拉图（Boplato）全套学说”（涵盖薄士学位、黄毛理论、牛肉面理论、飞机杯理论、听劝理论与版本更新论）。
+本项目核心思想框架与认知模因源自知名博主 **[邵艾伦 (Alan Shao)](https://x.com/AlanShao111)** 提出的“薄肌理论”与“薄拉图（Boplato）全套学说”，以及波场 TRON 创始人 **[孙宇晨 (Justin Sun)](https://x.com/justinsuntron)** 带来的“孙学”财富与认知套利模型。
 
-感谢艾伦在全网带来的先锋认知碰撞与破圈模因，本项目由 **[@FizzEat](https://github.com/FizzEat)** ([X: @boniusex](https://x.com/boniusex)) 基于 Antigravity / Claude Code 开源生态进行了系统的 AI Agent 技能工程化重构与闭环落地。
+特别致敬 2026 年 10 月邵艾伦与孙宇晨的长达 4 小时深度思想对谈，直接促成了本项目**“孙学 - 薄肌 - 黄毛”三位一体人生操作系统**的体系化定型与落地。
+
+感谢艾伦与孙哥在全网带来的先锋认知碰撞，本项目由 **[@FizzEat](https://github.com/FizzEat)** ([X: @boniusex](https://x.com/boniusex)) 基于 Antigravity / Claude Code 开源生态进行了系统的 AI Agent 技能工程化重构。
 
 ---
 
@@ -112,16 +118,16 @@ python3 tools/calc_metrics.py --height 175 --weight 75 --pullups 4
 
 ### Markdown
 ```markdown
-[boji-skill](https://github.com/FizzEat/boji-skill) - 基于薄肌理论与薄拉图全套体系的开源 AI Agent 工具箱 (@FizzEat).
+[boji-skill](https://github.com/FizzEat/boji-skill) - 基于“孙学-薄肌-黄毛”三位一体的开源 AI Agent 工具箱 (@FizzEat).
 ```
 
 ### BibTeX
 ```bibtex
 @software{fizzeat_boji_skill_2026,
   author = {FizzEat},
-  title = {boji-skill: Open-Source Thin Muscle & Boplato AI Agent Toolkit},
+  title = {boji-skill: Open-Source Sunism, Thin Muscle & Huangmao AI Agent Toolkit},
   url = {https://github.com/FizzEat/boji-skill},
-  version = {1.0.0},
+  version = {1.1.0},
   year = {2026}
 }
 ```
