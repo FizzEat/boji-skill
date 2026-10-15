@@ -6,6 +6,8 @@ description: >-
 
 # /boji-sunxue 孙学与认知套利引擎
 
+> Codex 调用：`$boji-sunxue`（独立技能）或 `$boji-skill:boji-sunxue`（插件命名空间），以可用技能列表中的名称为准。文内联动指令与后续提示词也沿用相同的 `$` 前缀和命名空间；Claude Code / Antigravity 仍使用 `/` 前缀。
+
 > “在 AI 时代，算力、知识和分发渠道全部平权，唯一的阻碍就是你过时的老旧代码和虚荣心。”  
 > —— 孙学（Sunism）核心心法
 

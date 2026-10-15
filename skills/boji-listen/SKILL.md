@@ -6,6 +6,8 @@ description: >-
 
 # /boji-listen 听劝差极速纠偏引擎
 
+> Codex 调用：`$boji-listen`（独立技能）或 `$boji-skill:boji-listen`（插件命名空间），以可用技能列表中的名称为准。文内联动指令与后续提示词也沿用相同的 `$` 前缀和命名空间；Claude Code / Antigravity 仍使用 `/` 前缀。
+
 “聪明是可以后天练出来的。”  
 在薄拉图认知哲学中，决定一个人成长速度上限的，不是初始智商，也不是家庭背景，而是**“听劝差（The Feedback-Action Gap）”**。
 
