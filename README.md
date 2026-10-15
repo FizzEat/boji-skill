@@ -9,6 +9,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/FizzEat/boji-skill?style=flat-square&logo=github&color=EAB308)](https://github.com/FizzEat/boji-skill/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/FizzEat/boji-skill?style=flat-square&color=3B82F6)](https://github.com/FizzEat/boji-skill/network/members)
 [![Release](https://img.shields.io/badge/release-v1.1.0-10B981.svg?style=flat-square)](https://github.com/FizzEat/boji-skill/releases)
+[![Codex](https://img.shields.io/badge/Codex-supported-10B981?style=flat-square)](https://developers.openai.com/codex/skills)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 [![Author](https://img.shields.io/badge/author-FizzEat-181717.svg?style=flat-square&logo=github)](https://github.com/FizzEat)
 [![X/Twitter](https://img.shields.io/badge/X-@boniusex-000000.svg?style=flat-square&logo=x)](https://x.com/boniusex)
@@ -30,6 +31,8 @@
 ---
 
 ## 🧭 能力一览与 Skill 全目录 (共 14 大专属技能)
+
+**已适配 OpenAI Codex**（CLI / IDE 扩展 / 桌面端）。下表保留 Claude Code / Antigravity 的 `/` 写法；Codex 使用 `$` 前缀。独立安装时为 `$boji`；在本插件仓库中，Codex 会加上 `boji-skill:` 命名空间，例如 `$boji-skill:boji`。以技能列表显示的名称为准。
 
 | 指令 | 对应底层理论 | 适用情境 | 核心产出 |
 | :--- | :--- | :--- | :--- |
@@ -53,10 +56,10 @@
 ## 🚀 快速开始
 
 ### 方式 1：主入口智能导航
-在任何支持 Skill 的 Agent（如 Claude Code / Antigravity）中，直接输入当前处境：
+安装后，在 Codex 中输入 `$` 选择技能，在 Claude Code / Antigravity 中使用 `/boji`。以下示例使用本仓库内的 Codex 调用名；安装到普通项目或用户技能目录时去掉 `boji-skill:`：
 
 ```text
-/boji 我身高176cm，体重75kg，平时只吃外卖，引体向上一个都拉不上去，
+$boji-skill:boji 我身高176cm，体重75kg，平时只吃外卖，引体向上一个都拉不上去，
 天天熬夜刷手机很内耗，想改变自己，该怎么开始？
 ```
 
@@ -66,14 +69,37 @@ Agent 会自动分析并给出诊断、推荐的主攻技能，以及一个**今
 明确目标时，直接调用专属工具：
 
 ```text
-/boji-nutrition 我今天中午想点沙县小吃，帮我选一套薄肌高蛋白搭配。
-/boji-pullup 我现在最多拉 3 个引体，怎么最快突破到 8 个？
-/boji-unblock 昨晚和朋友吃火锅暴饮暴食了，今早体重重了3斤，心态很崩，怎么办？
+$boji-skill:boji-nutrition 我今天中午想点沙县小吃，帮我选一套薄肌高蛋白搭配。
+$boji-skill:boji-pullup 我现在最多拉 3 个引体，怎么最快突破到 8 个？
+$boji-skill:boji-unblock 昨晚和朋友吃火锅暴饮暴食了，今早体重重了3斤，心态很崩，怎么办？
 ```
 
 ---
 
 ## 🛠️ 安装与集成
+
+### 在 Codex CLI / IDE 扩展 / 桌面端中使用
+
+在本仓库根目录执行（需要 Python 3，无第三方依赖）：
+
+```bash
+# 将全部 14 个技能安装到本仓库的 .agents/skills/
+python3 tools/install_codex.py
+```
+
+也可以安装到另一个项目，或安装到用户目录供多个项目使用：
+
+```bash
+# 指定项目
+python3 tools/install_codex.py --dest /path/to/your-project/.agents/skills
+
+# 当前用户的所有项目
+python3 tools/install_codex.py --dest "$HOME/.agents/skills"
+```
+
+安装器会完整复制各技能的 `SKILL.md`、参考资料及所需脚本，安装后不依赖原仓库。遇到同名目录会在复制前停止，避免覆盖；重新安装前请先移走需要替换的旧技能目录。
+
+在目标项目打开 Codex，输入 `$` 选择 `boji`，然后输入 `新手入门`。本仓库内的完整调用名为 `$boji-skill:boji`；安装到普通项目或用户目录时为 `$boji`。子技能同理，例如 `$boji-skill:boji-diagnosis` 或 `$boji-diagnosis`。Codex 会自动发现技能；若列表尚未刷新，重启 Codex。该方式不需要安装 Claude Code 插件。参见 [Codex 官方技能文档](https://developers.openai.com/codex/skills)。
 
 ### 在 Claude Code 中使用
 本项目原生包含 `.claude-plugin/plugin.json`，可直接作为插件载入：
@@ -86,12 +112,20 @@ claude plugin add /path/to/boji-skill
 ```bash
 # 复制到当前项目下的 .agents/skills/
 mkdir -p .agents/skills
-cp -r /Users/wuyanliu/.gemini/antigravity/scratch/boji-skill/skills/* .agents/skills/
+cp -R skills/. .agents/skills/
 ```
 
 ### 运行本地速算工具
 ```bash
 python3 tools/calc_metrics.py --height 175 --weight 75 --pullups 4
+```
+
+安装后的 `boji-diagnosis` 也自带 `scripts/calc_metrics.py`，可由 Codex 按技能目录定位运行。
+
+### 开发验证
+
+```bash
+python3 -m unittest discover -s tests -v
 ```
 
 ---

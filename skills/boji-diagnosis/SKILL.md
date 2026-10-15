@@ -6,6 +6,8 @@ description: >-
 
 # /boji-diagnosis 生理与代谢分型诊断引擎
 
+> Codex 调用：`$boji-diagnosis`（独立技能）或 `$boji-skill:boji-diagnosis`（插件命名空间），以可用技能列表中的名称为准。文内联动指令与后续提示词也沿用相同的 `$` 前缀和命名空间；Claude Code / Antigravity 仍使用 `/` 前缀。
+
 拒绝千篇一律的通用健身建议。本技能专为普通人与打工人设计，通过**四象限身体分型模型**与**代谢真因探测**，在 3 分钟内确定当前身体处境与最短阻力突破口。
 
 ---
@@ -53,6 +55,16 @@ description: >-
 ---
 
 ## 二、 诊断输入与输出规范
+
+### 本地速算工具
+
+需要计算 BMI、BMR 或 TDEE 且用户已提供参数时，可使用本技能自带的 [scripts/calc_metrics.py](./scripts/calc_metrics.py)。将脚本路径解析为**相对于当前 `SKILL.md` 所在目录**的绝对路径后运行，不依赖用户的工作目录或原始仓库：
+
+```bash
+python3 "<当前技能目录>/scripts/calc_metrics.py" --height 175 --weight 75 --age 25 --gender male --pullups 3
+```
+
+身高、体重缺失时先询问；年龄、性别、活动水平等未提供时，说明脚本默认值或先补充信息，不将默认值当作已知事实。
 
 ### 必需输入参数（或引导用户提供）
 1. 身高 (cm)、体重 (kg)、年龄、性别

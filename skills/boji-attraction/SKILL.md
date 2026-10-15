@@ -6,6 +6,8 @@ description: >-
 
 # /boji-attraction 黄毛理论：规则脱钩、雄性框架与原生吸引力
 
+> Codex 调用：`$boji-attraction`（独立技能）或 `$boji-skill:boji-attraction`（插件命名空间），以可用技能列表中的名称为准。文内联动指令与后续提示词也沿用相同的 `$` 前缀和命名空间；Claude Code / Antigravity 仍使用 `/` 前缀。
+
 > “黄毛最核心的哲学不是‘染头发’，而是‘我压根不跟你玩这个游戏’。当你从别人设定的考卷中彻底抽离时，你才拥有真正的自由与吸引力。”  
 > —— 薄拉图·黄毛理论总纲
 

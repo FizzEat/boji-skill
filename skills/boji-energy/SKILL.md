@@ -6,6 +6,8 @@ description: >-
 
 # /boji-energy 飞机杯理论与精力回收闭环
 
+> Codex 调用：`$boji-energy`（独立技能）或 `$boji-skill:boji-energy`（插件命名空间），以可用技能列表中的名称为准。文内联动指令与后续提示词也沿用相同的 `$` 前缀和命名空间；Claude Code / Antigravity 仍使用 `/` 前缀。
+
 在男性的成长旅程中，**注意力与精力（Focus & Vitality）是唯一不可再生的核心资产**。
 
 然而，无数处于一无所有、原始积累阶段的年轻男性，其最宝贵的黄金时间往往被两股巨大的暗流吞噬：

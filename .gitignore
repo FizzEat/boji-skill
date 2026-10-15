@@ -24,3 +24,6 @@ venv/
 *.swift
 overlay_card.png
 
+# Local Codex installation (generated from skills/)
+.agents/skills/
+
